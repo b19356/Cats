@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../final.css" type="text/css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <title>Register</title>
+</head>
+    
+    <body>
+
+        <div id="wrapper">
+
+            <header>
+                
+            <div id="generic_cat"></div>
+            <h1>Register for an Online Cat Profile</h1>
+
+            </header>
+
+                <div id="form">
+                <form>
+
+                    <fieldset>
+                        
+                        <legend>Tell Us About Your Cat</legend>
+
+                        <label>Name:</label><input type="text" name="name" size="25" maxlength="50" id="name"><br>
+                        <label>Sex:</label>
+                        <label><input type="radio" name="sex" value="Female">Female</label>
+                        <label><input type="radio" name="sex" value="Male">Male</label><br>
+                        <label>Age:</label><input type="number" name="age" min="1" max="20"> pick closest year<br>
+                        <label>Overall Cuteness Level:</label>
+                        
+                        <select name="cuteness">
+                            <option>Pick a Level</option>
+                            <option>Cuter than Average</option>
+                            <option>Average Cuteness</option>
+                            <option>Not that Cute</option>
+                        </select><br>
+                        
+                        <label>Unique Behavior:</label><br>
+                        <textarea name="comments" rows="10" cols="50"></textarea><br>
+                        <label>Upload Picture:</label>
+                        <input type="file" id="img" name="img" accept="image/*">
+                        
+
+                    </fieldset>
+                    
+                    <fieldset>
+                        
+                        <legend>Tell Us About You</legend>
+                        <label>First Name: </label><input type="text" name="first_name" size="25" maxlength="50"><br>
+                        <label>Last Name: </label><input type="text" name="last_name" size="25" maxlength="50"><br>
+                        <label>Email: </label><input type="email" name="email" size="25" maxlength="50">
+                    
+                    </fieldset>
+                    
+                    <div id="buttons">
+                        <input type="reset" value="Reset"><input type="submit" value="Submit" onClick="alert('Seriously?');">
+                    
+                    </div>
+                    
+                    <p>Due to the overwhelming response, there may be a delay in contacting you.  Thanks for your patience.</p>
+
+                </form>
+                    </div>
+            <br>
+            
+            <nav class="form">
+                
+                <ul>
+                
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../piper/index.html">Piper</a></li>
+                <li><a href="../charlie/index.html">Charlie</a></li>
+                <li><a href="../beanie/index.html">Beanie</a></li>
+                <li><a href="../boo/index.html">Boo</a></li>
+
+            </ul>
+            
+            </nav>
+            
+            <br>
+            <br>
+            <br>
+
+            <footer>
+                Associated Press for Cats (APC) &copy;2021 
+            </footer>
+
+
+        </div>
+    </body>
+
+
+
+</html>
